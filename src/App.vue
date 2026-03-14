@@ -1,14 +1,10 @@
 <template>
 
-<div>
-
 <Sidebar/>
 
 <div id="main">
 
 <router-view/>
-
-</div>
 
 </div>
 

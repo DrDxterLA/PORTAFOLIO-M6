@@ -12,7 +12,7 @@
 
 <script setup>
 
-const name = "Cristobal Riffo"
+const name = "Cristobal Riffo Berna"
 
 const description = "Desarrollador Web | Fotógrafo | Productor de Eventos"
 

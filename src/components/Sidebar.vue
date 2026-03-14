@@ -4,8 +4,8 @@
 
 <div class="text-center">
 
-<h3>Cristobal Riffo</h3>
-<p>Desarrollador & Productor</p>
+<h3>Cristobal Riffo Berna</h3>
+<p>Desarrollador, Fotógrafo & Productor</p>
 
 </div>
 

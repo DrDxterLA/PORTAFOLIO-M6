@@ -7,6 +7,8 @@ import 'bootstrap'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import 'aos/dist/aos.css'
 
+import './assets/style.css'
+
 createApp(App)
 .use(router)
 .mount('#app')

@@ -1,0 +1,72 @@
+body{
+margin:0;
+font-family: Arial, sans-serif;
+}
+
+/* SIDEBAR */
+
+#sidebar{
+position:fixed;
+top:0;
+left:0;
+bottom:0;
+width:260px;
+background:#040b14;
+padding:20px;
+overflow-y:auto;
+}
+
+#sidebar h3,
+#sidebar p{
+color:white;
+}
+
+#sidebar a{
+color:#a8a9b4;
+text-decoration:none;
+display:block;
+padding:10px 0;
+transition:0.3s;
+}
+
+#sidebar a:hover{
+color:white;
+padding-left:6px;
+}
+
+/* MAIN */
+
+#main{
+margin-left:260px;
+padding:40px;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url('https://picsum.photos/1600/900');
+background-size:cover;
+background-position:center;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:992px){
+
+#sidebar{
+width:100%;
+height:auto;
+position:relative;
+}
+
+#main{
+margin-left:0;
+}
+
+}
